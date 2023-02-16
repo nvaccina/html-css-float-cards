@@ -7,9 +7,43 @@
 body{
   font-family: 'Roboto', sans-serif;
   text-align: center;
+
+  width: 80%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*Header*/
 header h1{
-
+  color: #e53170;
+  padding: 40px 0;
+  font-weight: 580;
+  font-family: 'Fredoka One', cursive;
+}
+.text{
+  padding-bottom: 40px;
+}
+.container{
+  width: 350px;
+  height: 100px;
+  background-color: #0f0e17;
+}
+.card img{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.info{
+  color: white;
+  float: left;
+  text-align: left;
+  padding-left: 20px;
+}
+.info p{
+  padding: ;
 }
